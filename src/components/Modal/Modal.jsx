@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import propTypes from 'prop-types';
+// import propTypes from 'prop-types';
 import css from "../Modal/Modal.module.css"
 
 export const Modal = ({ onClose, largeImageURL }) => {
@@ -31,6 +31,6 @@ export const Modal = ({ onClose, largeImageURL }) => {
 
 
 
-Modal.propTypes = {
-  largeImageURL: propTypes.string.isRequired,
-};
+// Modal.propTypes = {
+//   largeImageURL: propTypes.string.isRequired,
+// };

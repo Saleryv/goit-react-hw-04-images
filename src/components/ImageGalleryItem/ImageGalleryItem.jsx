@@ -32,5 +32,5 @@ export const ImageGalleryItem = ({ webformatURL, largeImageURL }) => {
 
 ImageGalleryItem.propTypes = {
   webformatURL: PropTypes.string.isRequired,
-  largeImageURL: PropTypes.string.isRequired,
+  // largeImageURL: PropTypes.string.isRequired,
 };
